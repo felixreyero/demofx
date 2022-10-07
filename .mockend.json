@@ -1,5 +1,5 @@
 {
-  "Trip": {
+  "Tripplan": {
     "departure": { "string": {} },
     "arrival": { "string": {} },    
     "sections": {
@@ -9,8 +9,8 @@
   "Section": {
     "departure": { "string": {} },
     "arrival": { "string": {} },
-    "trip": {
-      "belongsTo": "Trip"
+    "tripplan": {
+      "belongsTo": "Tripplan"
     }
   }
 }
