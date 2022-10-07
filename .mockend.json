@@ -1,12 +1,12 @@
 {
   "Trip": {
-    "title": { "string": {} },
     "sections": {
       "hasMany": "Section"
     }
   },
   "Section": {
-    "body": { "string": {} },
+    "departure": { "string": {} },
+    "arrival": { "string": {} },
     "trip": {
       "belongsTo": "Trip"
     }
