@@ -1,5 +1,5 @@
 {
-  "TripPlan": {
+  "Trip": {
     "title": { "string": {} },
     "sections": {
       "hasMany": "Section"
@@ -7,8 +7,8 @@
   },
   "Section": {
     "body": { "string": {} },
-    "tripplan": {
-      "belongsTo": "TripPlan"
+    "trip": {
+      "belongsTo": "Trip"
     }
   }
 }
