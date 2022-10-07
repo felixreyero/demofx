@@ -1,8 +1,14 @@
 {
   "Tripplan": {
     "sections": {
-      "departure": { "string": {} },
-      "arrival": { "string": {} }
+      "hasMany": "Section"
+    }
+  },
+  "Section": {
+    "departure": { "string": {} },
+    "arrival": { "string": {} },
+    "trippln": {
+      "belongsTo": "Tripplan"
     }
   }
 }
