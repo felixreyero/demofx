@@ -1,8 +1,8 @@
 {
   "Tripplan": {
     "sections": {
-    "departure": { "string": {} },
-    "arrival": { "string": {} },
+      "departure": { "string": {} },
+      "arrival": { "string": {} }
     }
   }
 }
