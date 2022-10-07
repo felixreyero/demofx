@@ -6,8 +6,7 @@
     }
   },
   "Section": {
-    "departure": { "string": {} },
-    "arrival": { "string": {} },
+    "body": { "string": {} },
     "tripplan": {
       "belongsTo": "TripPlan"
     }
