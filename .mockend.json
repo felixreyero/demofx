@@ -8,7 +8,7 @@
   "Section": {
     "departure": { "string": {} },
     "arrival": { "string": {} },
-    "TripPlan": {
+    "tripplan": {
       "belongsTo": "TripPlan"
     }
   }
