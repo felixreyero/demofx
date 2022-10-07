@@ -1,8 +1,8 @@
 {
   "Trip": {
+    "departure": { "string": {} },
+    "arrival": { "string": {} },    
     "sections": {
-          "departure": { "string": {} },
-    "arrival": { "string": {} },
       "hasMany": "Section"
     }
   },
